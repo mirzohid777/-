@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foydalanuvchi Ma'lumotlari</title>
+    <link rel="stylesheet" href="mean.css">
+</head>
+<body>
+    <div class="bloc">
+        <div class="container">
+        <h2>Введите информацию о пользователеh</h2>
+        <form id="userForm">
+            <div class="input-group">
+                <label for="firstName">Имя:</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Ismingizni kiriting">
+            </div>
+            
+            <div class="input-group">
+                <label for="lastName">Фамилия:</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Familiyangizni kiriting">
+            </div>
+            
+            <div class="input-group">
+                <label for="age">Возраст:</label>
+                <input type="number" id="age" name="age" placeholder="Yoshingizni kiriting" min="1" max="120">
+            </div>
+            
+            <div class="input-group">
+                <label for="phone">Номер телефона:</label>
+                <input type="tel" id="phone" name="phone" placeholder="+998 xx xxx xx xx">
+            </div>
+            
+            <button type="submit">Отправка данных</button>
+        </form>
+        
+        <a href="./index.html"><div id="message" class="message"></div></a>
+    </div>
+    <div class="bloc-logatsoya">
+    </div>
+    </div>
+    
+    <script src="mean.js"></script>
+</body>
+</html>
